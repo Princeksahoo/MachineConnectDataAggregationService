@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineConnectDataAggregationService", "MachineConnectDataAggregation\MachineConnectDataAggregationService.csproj", "{86DB42EA-B297-4422-BA6B-FDD4769883C9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MachineConnectDataAggregationServiceSetup", "MachineConnectDataAggregationService\TPMExportEnergyDataToCSVService.vdproj", "{A5938E97-BE94-4A3C-8139-80CF4682EDFC}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MachineConnectDataAggregation\\MachineConnectDataAggregationService.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = MachineConnectDataAggregation\\
+		SccProjectUniqueName2 = MachineConnectDataAggregationService\\TPMExportEnergyDataToCSVService.vdproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = MachineConnectDataAggregationService\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86DB42EA-B297-4422-BA6B-FDD4769883C9}.Debug|x86.ActiveCfg = Debug|x86
+		{86DB42EA-B297-4422-BA6B-FDD4769883C9}.Debug|x86.Build.0 = Debug|x86
+		{86DB42EA-B297-4422-BA6B-FDD4769883C9}.Release|x86.ActiveCfg = Release|x86
+		{86DB42EA-B297-4422-BA6B-FDD4769883C9}.Release|x86.Build.0 = Release|x86
+		{A5938E97-BE94-4A3C-8139-80CF4682EDFC}.Debug|x86.ActiveCfg = Debug
+		{A5938E97-BE94-4A3C-8139-80CF4682EDFC}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
